@@ -58,7 +58,7 @@ Add your name to the `CONTRIBUTORS.md` file using the below convention:
 ```markdown
 #### Name: [YOUR NAME](GitHub link)
 - GitHub(user name): [GitHub user name
-- what you contributed:Grocery Store app in android studio (e.g)
+-contribution(name &short description):Grocery Store app in android studio (e.g)
 
 or By simple Drag and drop
 - Create a new pull request from your forked repository (Click the New Pull Request button located at the top of your repo)
