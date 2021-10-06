@@ -8,5 +8,6 @@
 
 #### Name: Sahib Singh
  - GitHub(user name): ssahibsingh
- - My contribution : 1. Send Emails Using Python
-                     2. Text To Handwriting Using Python 
+ - My contributions : <br>
+    1. Send Emails Using Python <br>
+    2. Text To Handwriting Using Python 
