@@ -1,3 +1,3 @@
 #### Name: Sam
  - GitHub(user name): Sam1100
- - What you contributed : Grocery Store
+ - My contribution : Grocery Store app
