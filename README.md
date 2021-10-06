@@ -57,7 +57,6 @@ Add your name to the `CONTRIBUTORS.md` file using the below convention:
 
 ```markdown
 #### Name: [YOUR NAME](GitHub link)
-- Name:Sam(e.g)
 - GitHub(user name): [GitHub user name
 - Project(name):Grocery Store (e.g)
 
