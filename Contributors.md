@@ -20,6 +20,6 @@
 
 #### Name: kalyan mishra
  - GitHub(user name): thekalyan001
- - My contribution :
- - 1. Counting cake
- - 2.About me app
+ - My contribution :<br>
+   1.Counting cake
+   2.About me app
