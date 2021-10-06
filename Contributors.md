@@ -11,3 +11,13 @@
  - My contributions : <br>
     1. Send Emails Using Python <br>
     2. Text To Handwriting Using Python 
+    
+
+#### Name: Akashay Anand
+ - GitHub(user name): Akashay-Anand
+ - My contribution : Left pyramid pattern
+
+
+#### Name: kalyan mishra
+ - GitHub(user name): thekalyan001
+ - My contribution : Counting cake
