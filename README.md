@@ -1,6 +1,12 @@
 # 🎃🔥AndroidGeeks. ✔
 Participate in Hacktoberfest by contributing to  Open Source project on GitHub! Here you can contribute projects related to android apps ,python. Happy contributing
 
+
+![enter image description here](https://user-images.githubusercontent.com/64991656/135403993-8436cfd2-5314-4c03-8509-d33e51c565b2.png)
+
+
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)&nbsp;![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)
+
 ✔ Use this Repository to make your first contribution to an open source project on GitHub. ✔
 
 Celebrate [Hacktoberfest](https://hacktoberfest.digitalocean.com/) by getting involved in the open source community by completing some simple tasks in this project.
