@@ -1,0 +1,93 @@
+import pyttsx3
+import speech_recognition as sr
+import wikipedia
+import pyjokes
+import wolframalpha
+import webbrowser
+import os
+try:
+    r = sr.Recognizer()
+    engine=pyttsx3.init()
+    voice=engine.getProperty('voices')
+    engine.setProperty('voice',voice[1].id)
+    
+    def speak(r):
+        
+        engine.say(r)
+        engine.runAndWait()
+        return 1
+
+    speak("HELLO BOSS! GOOD AFTERNOON")
+
+    def get_command():
+        print("Listening")
+        t=' '
+        with sr.Microphone() as source:
+            audio=r.record(source,duration=4)
+            t=r.recognize_google(audio)
+            t=t.lower()
+            print(t)
+        return t
+
+    def wiki():
+        c=get_command()
+        result = wikipedia.summary(c, sentences = 2)   
+        print(result)
+        speak(result)
+
+        
+    def open_dict():
+        c=get_command()
+
+    def get_jokes():
+        k=pyjokes.get_joke()
+        print(k)
+        speak(k)
+        
+
+    def wolfarma(c):
+        
+        #app_id=Enter your own id
+        client = wolframalpha.Client(app_id)
+        res = client.query(c) 
+        answer = next(res.results).text 
+  
+        print(answer) 
+        speak(answer)
+
+    def you_tube():
+        print("playing song")
+        webbrowser.open('https://www.youtube.com/watch?v=r-wA98j4ewk')
+        
+    def google():
+        print("opening gogle")
+        webbrowser.open('https://www.google.com/')
+
+    def give_command():
+        print("HOME")
+        
+        
+        while 1:
+
+            cmd=get_command()
+
+            if('wikipedia' in cmd):
+                speak("opening wikipedia! tell what you want to search")
+                wiki()
+            elif('jokes' in cmd or 'joke' in cmd):
+                get_jokes()
+            elif('stop' in cmd or 'exit' in cmd or 'done' in cmd):
+                break;
+            elif('what' in cmd or 'where' in cmd or 'when' in cmd or 'who' in cmd):
+                wolfarma(cmd)
+            elif('youtube' in cmd):
+                speak("paying bhjan")
+                you_tube()
+            elif('google' in cmd):
+                speak("opening google")
+                google()
+            else:
+                print("try again")
+    give_command()
+except:
+    pass
